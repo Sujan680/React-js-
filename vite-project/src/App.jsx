@@ -11,6 +11,9 @@ import ProductInfo from "./ExerciseComponents/ProductInfo";
 import List from "./List/List";
 import ProductList from "./List/ProductList";
 import UserList from "./List/UserList";
+import Person from "./props/Person";
+import Product from "./props/Product";
+import Props from "./props/Props";
 
 const App = () => {
   return (
@@ -36,6 +39,9 @@ const App = () => {
       <hr />
       <ProductList/>
 
+      <Props/>
+      <Person name="Dinesh" age="34" />
+      <Product name="Apple" price="$343" />
       <Footer/>
   </>
   )
