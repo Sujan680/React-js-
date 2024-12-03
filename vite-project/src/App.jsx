@@ -1,4 +1,5 @@
 import Add from "./components/Add";
+import Card from "./components/Card";
 import Expression from "./components/Expression";
 import Footer from "./components/Footer";
 import Greet from "./components/Greet";
@@ -19,6 +20,7 @@ import ChildrenProps from "./props/ChildrenProps";
 import Person from "./props/Person";
 import Product from "./props/Product";
 import Props from "./props/Props";
+import StylingComponent from "./StylingComponent";
 
 const App = () => {
   return (
@@ -64,6 +66,10 @@ const App = () => {
       <Weather temperature={43}/>
 
       <UserStatus loggedIn={true} isAdmin={true} />
+
+      <StylingComponent/>
+
+      <Card/> 
 
       <Footer />
     </>
