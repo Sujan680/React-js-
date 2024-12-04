@@ -14,6 +14,9 @@ import Weather from "./Conditional/Weather";
 import ReactEvent from "./Events/ReactEvent";
 import Greeting from "./ExerciseComponents/Greeting";
 import ProductInfo from "./ExerciseComponents/ProductInfo";
+import UseState from "./HooksInReactJs/UseState";
+import UseState1 from "./HooksInReactJs/UseState1";
+import UseStateObject from "./HooksInReactJs/UseStateObject";
 import List from "./List/List";
 import ProductList from "./List/ProductList";
 import UserList from "./List/UserList";
@@ -72,7 +75,11 @@ const App = () => {
 
       <Card/> 
 
-      <ReactEvent/>
+      {/* <ReactEvent/> */}
+
+      <UseState/>
+      <UseState1/>
+      <UseStateObject/>
 
       <Footer />
     </>
