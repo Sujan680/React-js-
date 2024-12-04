@@ -11,6 +11,7 @@ import CartCount from "./Conditional/CartCount";
 import ConditionalRendering from "./Conditional/ConditionalRendering";
 import UserStatus from "./Conditional/UserStatus";
 import Weather from "./Conditional/Weather";
+import ReactEvent from "./Events/ReactEvent";
 import Greeting from "./ExerciseComponents/Greeting";
 import ProductInfo from "./ExerciseComponents/ProductInfo";
 import List from "./List/List";
@@ -70,6 +71,8 @@ const App = () => {
       <StylingComponent/>
 
       <Card/> 
+
+      <ReactEvent/>
 
       <Footer />
     </>

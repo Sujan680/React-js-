@@ -22,13 +22,13 @@
     object-fit: contain;
 }
 
-h2 {
+.card h2 {
     text-align: center;
     font-size: 30px;
     
 }
 
-p {
+.card p {
     text-align: center;
     color: aquamarine;
 }
