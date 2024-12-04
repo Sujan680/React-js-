@@ -14,9 +14,17 @@ import Weather from "./Conditional/Weather";
 import ReactEvent from "./Events/ReactEvent";
 import Greeting from "./ExerciseComponents/Greeting";
 import ProductInfo from "./ExerciseComponents/ProductInfo";
+import Counter from "./HooksInReactJs/Challenge/Counter";
+import Profile from "./HooksInReactJs/Challenge/Profile";
+import ShoppinsList from "./HooksInReactJs/Challenge/ShoppinsList";
+import TodoList from "./HooksInReactJs/Challenge/TodoList";
+import ExampleOne from "./HooksInReactJs/ExampleOne";
+import ExampleThree from "./HooksInReactJs/ExampleThree";
+import ExampleTwo from "./HooksInReactJs/ExampleTwo";
 import UseState from "./HooksInReactJs/UseState";
 import UseState1 from "./HooksInReactJs/UseState1";
 import UseStateObject from "./HooksInReactJs/UseStateObject";
+import UseStateWithArrayOfObject from "./HooksInReactJs/UseStateWithArrayOfObject";
 import List from "./List/List";
 import ProductList from "./List/ProductList";
 import UserList from "./List/UserList";
@@ -74,12 +82,28 @@ const App = () => {
       <StylingComponent/>
 
       <Card/> 
-
+      <hr />
       {/* <ReactEvent/> */}
 
       <UseState/>
+      <hr />
       <UseState1/>
+      <hr />
       <UseStateObject/>
+      <hr />
+      <UseStateWithArrayOfObject/>
+      <hr />
+      <ExampleOne/>
+      <ExampleTwo/>
+      <ExampleThree/>
+      <hr />
+      <Counter/>
+
+      <TodoList/>
+
+      <Profile/>
+
+      <ShoppinsList/>
 
       <Footer />
     </>
