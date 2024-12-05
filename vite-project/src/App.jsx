@@ -1,11 +1,13 @@
 import Add from "./components/Add";
 import Card from "./components/Card";
 import Expression from "./components/Expression";
+import FavouriteColor from "./components/FavouriteColor";
 import Footer from "./components/Footer";
 import Greet from "./components/Greet";
 import Header from "./components/Header";
 import JSXRules from "./components/JSXRules";
 import MainContent from "./components/MainContent";
+import Switcher from "./components/Switcher";
 import WelcomeMessage from "./components/WelcomeMessage";
 import CartCount from "./Conditional/CartCount";
 import ConditionalRendering from "./Conditional/ConditionalRendering";
@@ -21,6 +23,7 @@ import TodoList from "./HooksInReactJs/Challenge/TodoList";
 import ExampleOne from "./HooksInReactJs/ExampleOne";
 import ExampleThree from "./HooksInReactJs/ExampleThree";
 import ExampleTwo from "./HooksInReactJs/ExampleTwo";
+import CopyInput from "./HooksInReactJs/Portal/CopyInput";
 import UseState from "./HooksInReactJs/UseState";
 import UseState1 from "./HooksInReactJs/UseState1";
 import UseStateObject from "./HooksInReactJs/UseStateObject";
@@ -104,6 +107,12 @@ const App = () => {
       <Profile/>
 
       <ShoppinsList/>
+
+      <FavouriteColor/>
+
+      <CopyInput/>
+
+      <Switcher/>
 
       <Footer />
     </>
