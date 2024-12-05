@@ -24,6 +24,7 @@ import ExampleOne from "./HooksInReactJs/ExampleOne";
 import ExampleThree from "./HooksInReactJs/ExampleThree";
 import ExampleTwo from "./HooksInReactJs/ExampleTwo";
 import CopyInput from "./HooksInReactJs/Portal/CopyInput";
+import UseEffectHok from "./HooksInReactJs/useEffectHooks/UseEffectHok";
 import UseState from "./HooksInReactJs/UseState";
 import UseState1 from "./HooksInReactJs/UseState1";
 import UseStateObject from "./HooksInReactJs/UseStateObject";
@@ -113,6 +114,8 @@ const App = () => {
       <CopyInput/>
 
       <Switcher/>
+
+      <UseEffectHok/>
 
       <Footer />
     </>
