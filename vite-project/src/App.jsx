@@ -33,6 +33,7 @@ import List from "./List/List";
 import ProductList from "./List/ProductList";
 import UserList from "./List/UserList";
 import PropDrilling from "./PropDrilling/PropDrilling";
+import ReactContextApi from "./PropDrilling/ReactContextApi";
 import ChildrenProps from "./props/ChildrenProps";
 import Person from "./props/Person";
 import Product from "./props/Product";
@@ -119,6 +120,8 @@ const App = () => {
       <UseEffectHok/>
 
       <PropDrilling/>
+
+      <ReactContextApi/>
 
       <Footer />
     </>
