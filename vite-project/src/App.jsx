@@ -32,6 +32,7 @@ import UseStateWithArrayOfObject from "./HooksInReactJs/UseStateWithArrayOfObjec
 import List from "./List/List";
 import ProductList from "./List/ProductList";
 import UserList from "./List/UserList";
+import PropDrilling from "./PropDrilling/PropDrilling";
 import ChildrenProps from "./props/ChildrenProps";
 import Person from "./props/Person";
 import Product from "./props/Product";
@@ -116,6 +117,8 @@ const App = () => {
       <Switcher/>
 
       <UseEffectHok/>
+
+      <PropDrilling/>
 
       <Footer />
     </>
