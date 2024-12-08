@@ -36,6 +36,7 @@ import UseStateWithArrayOfObject from "./HooksInReactJs/UseStateWithArrayOfObjec
 import List from "./List/List";
 import ProductList from "./List/ProductList";
 import UserList from "./List/UserList";
+import ComponentA from "./PropDrilling/ComponentA";
 import PropDrilling from "./PropDrilling/PropDrilling";
 import ReactContextApi from "./PropDrilling/ReactContextApi";
 import ChildrenProps from "./props/ChildrenProps";
@@ -45,6 +46,8 @@ import Props from "./props/Props";
 import StylingComponent from "./StylingComponent";
 
 const App = () => {
+  // prop drilling 
+  const name = "Sujan";
   return (
     <>
       {/* This is a components in jsx  */}
@@ -134,6 +137,8 @@ const App = () => {
       <Challenge2/>
       <ChallengeFecthData/>
 
+      {/* Prop drilling  */}
+      <ComponentA name={name}/>
       <Footer />
     </>
   );
