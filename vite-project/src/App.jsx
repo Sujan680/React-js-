@@ -24,6 +24,10 @@ import ExampleOne from "./HooksInReactJs/ExampleOne";
 import ExampleThree from "./HooksInReactJs/ExampleThree";
 import ExampleTwo from "./HooksInReactJs/ExampleTwo";
 import CopyInput from "./HooksInReactJs/Portal/CopyInput";
+import Challenge1 from "./HooksInReactJs/useEffectHooks/Challenge1";
+import Challenge2 from "./HooksInReactJs/useEffectHooks/Challenge2";
+import ChallengeFecthData from "./HooksInReactJs/useEffectHooks/ChallengeFecthData";
+import FetchingWithHooks from "./HooksInReactJs/useEffectHooks/FetchingWithHooks";
 import UseEffectHok from "./HooksInReactJs/useEffectHooks/UseEffectHok";
 import UseState from "./HooksInReactJs/UseState";
 import UseState1 from "./HooksInReactJs/UseState1";
@@ -122,6 +126,13 @@ const App = () => {
       <PropDrilling/>
 
       <ReactContextApi/>
+
+      {/* Fetching the data  */}
+      <FetchingWithHooks/>
+
+      <Challenge1/>
+      <Challenge2/>
+      <ChallengeFecthData/>
 
       <Footer />
     </>
