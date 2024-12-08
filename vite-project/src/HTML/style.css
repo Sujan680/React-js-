@@ -1,0 +1,31 @@
+.box {
+    height: 150px;
+    width: 200px;
+    background-color: blue;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#box-1 {
+    flex-shrink: 1;
+    /* flex-shrink: 0; */
+    /* flex-grow: 0;   0 default for flex-grow */
+    /* flex-grow: 1; */
+    /* flex-basis: 1; */
+}
+
+
+body {
+    flex-grow: 0;
+    min-height: 800px;
+    border: 8px solid black;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    align-content: center;
+}

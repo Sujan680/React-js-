@@ -16,7 +16,7 @@ const ChallengeFecthData = () => {
         <h2>Fetching Data:...</h2>
         
             {
-                posts.length > 0 ?  <h2> {posts[0].title} </h2> : ""
+                posts.length > 0 ?  <h2> {posts[1].title} </h2> : ""
             }
         
     </div>
