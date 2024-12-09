@@ -4,6 +4,7 @@ import UserProfile from "./components/UserProfile";
 import UpdateUser from "./components/UpdateUser";
 import CounterApp from "./useReducer/CounterApp";
 import ChallengeCounter from "./useReducer/ChallengeCounter";
+import Example from "./useRef/Example";
 
 const App = () => {
   return (
@@ -16,6 +17,10 @@ const App = () => {
     {/* counter with useReducer hook  */}
       <CounterApp/>
       <ChallengeCounter/>
+
+      {/* useref  hooks*/}
+
+      <Example/>
     </div>
   );
 };
