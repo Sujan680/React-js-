@@ -1,16 +1,21 @@
-import React from 'react'
-import UserProvider from './components/UserContext';
-import UserProfile from './components/UserProfile';
-import UpdateUser from './components/UpdateUser';
-
+import React from "react";
+import UserProvider from "./components/UserContext";
+import UserProfile from "./components/UserProfile";
+import UpdateUser from "./components/UpdateUser";
+import CounterApp from "./useReducer/CounterApp";
 
 const App = () => {
   return (
-  <UserProvider>
-    <UserProfile/>
-    <UpdateUser/>
-  </UserProvider>
-  )
-}
+    <div>
+      <UserProvider>
+        <UserProfile />
+        <UpdateUser />
+      </UserProvider>
+
+    {/* counter with useReducer hook  */}
+      <CounterApp/>
+    </div>
+  );
+};
 
 export default App;
