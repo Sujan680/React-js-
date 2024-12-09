@@ -28,3 +28,9 @@ export default Example;
 // It is often used for direclty accessing DOM nodes without causing the components to re-render.
 
 // const ref = useRef(initialValue);
+
+// SUMMARY of useRef() hook:
+
+// Direct DOM manipulation
+// Storing mutable data that doesn't need to trigger re-renders
+// Persistent values (e.g., timers, previous state)
