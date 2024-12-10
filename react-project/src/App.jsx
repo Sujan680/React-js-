@@ -7,8 +7,11 @@ import ChallengeCounter from "./useReducer/ChallengeCounter";
 import Example from "./useRef/Example";
 import Counter from "./useRef/Counter";
 import Timer from "./useRef/Timer";
+import UseFetch from "./CustomHooks/UseFetch";
+import DisplayData from "./CustomHooks/DisplayData";
 
 const App = () => {
+  const [data] = UseFetch('https://jsonplaceholder.typicode.com/posts');
   return (
     <div>
       <UserProvider>
@@ -37,6 +40,19 @@ const App = () => {
       <Counter />
       <hr />
       <Timer />
+     
+
+      {/* CUSTOM HOOKS  */}
+      <div>
+        <h3>Some list of famous dialogue:</h3>
+        {
+          data && data.map((item) => {
+            return <li key={item.id}>{item.body}</li>
+          })
+        }
+      </div>
+      <hr />
+      <DisplayData/>
     </div>
   );
 };
