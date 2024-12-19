@@ -43,11 +43,11 @@ const Component3 = () => {
     )
 };
 const Component4 = () => {
-    const user = useContext(UserContext);
+    const userName = useContext(UserContext);
     return(
         <>
             <h1>Component 4</h1>
-            <h3> {`Helllo ${user} again!`} </h3>
+            <h3> {`Helllo ${userName} again!`} </h3>
         </>
     )
 };
